@@ -8,5 +8,6 @@ abstract class EgySubclass extends Class {
   // a superclassban lévő (a példában "absztrakt" nevű) abstract methodot.
 
   // Mikor jó ez?
+  // https://www.geeksforgeeks.org/abstract-classes-in-java/
 
 }

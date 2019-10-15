@@ -11,6 +11,6 @@ Lássuk, mi az, ami nem ment (át kell nézni):
 -
 - PIPA W01: CLI és control flow
 - PIPA W02: Data structures (ArrayList, HashMap főleg FileIO-s alkalmazása)
-- W03: FileIO, Classes/Objects hiányosságok
+- PIPA W03: FileIO, Classes/Objects hiányosságok
 - W04: Abstract/Interfaces, Testing hiányosságok
 - W05: Wanderer - még nincs kész
