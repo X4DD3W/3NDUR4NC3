@@ -18,7 +18,7 @@ public class CowsAndBulls {
   // The CAB object should have a guess method, which returns a string of the guess result
   // All methods, including constructor should be tested
 
-  public static void main(String[] args) {
+  /*public static void main(String[] args) {
 
     CowsAndBulls cab = new CowsAndBulls();
     Scanner scanner = new Scanner(System.in);
@@ -40,6 +40,6 @@ public class CowsAndBulls {
 
   public static void gameState() {
 
-  }
+  }*/
 
 }
