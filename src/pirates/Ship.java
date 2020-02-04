@@ -8,16 +8,16 @@ public class Ship {
 
   private List<Pirate> crew = new ArrayList<>();
   private Random random = new Random();
-  Pirate captain;
+  private Captain captain = new Captain();
 
   Ship() {
   }
 
   public void fillShip() {
-    for (int i = 0; i < random.nextInt(50); i++) {
+    for (int i = 0; i < random.nextInt(500); i++) {
       crew.add(new Pirate());
     }
-    crew.add(captain = new Pirate());
+    crew.add(captain);
   }
 
   public int alivePirates() {
@@ -80,5 +80,4 @@ public class Ship {
       crew.get(i).die();
     }
   }
-
 }

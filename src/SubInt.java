@@ -36,5 +36,4 @@ public class SubInt {
     }
     return result;
   }
-
 }

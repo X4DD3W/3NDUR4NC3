@@ -67,5 +67,4 @@ public class Logs {
     System.out.println("Number of GET-requests: " + getCounter);
     System.out.println("Number of POST-requests: " + postCounter);
   }
-
 }

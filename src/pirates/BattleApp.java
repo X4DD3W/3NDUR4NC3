@@ -4,7 +4,7 @@ public class BattleApp {
 
   public static void main(String[] args) {
 
-    Pirate pirate1 = new Pirate();
+    /*Pirate pirate1 = new Pirate();
     Pirate pirate2 = new Pirate();
 
     pirate1.drinkSomeRum();
@@ -19,8 +19,13 @@ public class BattleApp {
 
     ship1.battle(ship2);
     ship1.shipStatus();
-    ship2.shipStatus();
+    ship2.shipStatus();*/
 
+    Armada firstArmada = new Armada();
+    firstArmada.fillArmada();
+    Armada secondArmada = new Armada();
+    secondArmada.fillArmada();
+
+    System.out.println(firstArmada.war(secondArmada));
   }
-
 }

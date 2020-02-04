@@ -14,4 +14,3 @@ public class DivisibleSumPairs {
     return counter;
   }
 }
-

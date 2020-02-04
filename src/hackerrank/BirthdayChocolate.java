@@ -19,4 +19,3 @@ public class BirthdayChocolate {
     return counter;
   }
 }
-

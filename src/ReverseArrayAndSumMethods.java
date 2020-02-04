@@ -31,5 +31,4 @@ public class ReverseArrayAndSumMethods {
     }
     return sum;
   }
-
 }

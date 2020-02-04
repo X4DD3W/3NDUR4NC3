@@ -18,4 +18,3 @@ public class BirthdayCakes {
     return counter;
   }
 }
-

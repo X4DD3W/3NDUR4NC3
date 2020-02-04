@@ -21,7 +21,4 @@ public class AverageOfInput {
     System.out.println(avg);
 
   }
-
-
-
 }

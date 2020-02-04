@@ -22,7 +22,4 @@ public class ParametricAverage {
     System.out.println(sum);
     System.out.println(sum / howManyNumbers);
   }
-
-
-
 }

@@ -10,8 +10,8 @@ public class SubStr {
     //  should print: `-1`
     // System.out.println(subStr("this is what I'm searching in", "not"));
 
-    String where = "Nemes kezednek, melyben kezem delelhet, kedves, nincs párja.";
-    String what = "kedves";
+    String where = "Jaj ja jajaj jaj ja ja ja jajj ja jaj ja ja ja ja";
+    String what = "ja";
     System.out.println(subStr(where, what));
 
   }

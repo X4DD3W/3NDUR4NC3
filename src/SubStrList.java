@@ -28,5 +28,4 @@ public class SubStrList {
       return result;
     }
   }
-
 }
