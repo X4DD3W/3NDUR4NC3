@@ -1,4 +1,4 @@
-package hackerrank;
+package hackerrank.nincskesz;
 
 import java.util.Arrays;
 

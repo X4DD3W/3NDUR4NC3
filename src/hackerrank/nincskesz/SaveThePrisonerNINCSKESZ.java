@@ -1,4 +1,4 @@
-package hackerrank;
+package hackerrank.nincskesz;
 
 public class SaveThePrisonerNINCSKESZ {
 
