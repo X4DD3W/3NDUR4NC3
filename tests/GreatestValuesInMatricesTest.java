@@ -1,6 +1,7 @@
 import static org.junit.Assert.assertArrayEquals;
 
 import org.junit.Test;
+import other.GreatestValuesInMatrices;
 
 public class GreatestValuesInMatricesTest {
 
