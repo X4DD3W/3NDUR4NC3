@@ -1,8 +1,5 @@
 package hackerrank.problemsolving.nincskesz;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class FormingAMagicSquareNINCSKESZ {
 
   public static void main(String[] args) {
@@ -12,10 +9,15 @@ public class FormingAMagicSquareNINCSKESZ {
         {6, 4, 2}};
     formingMagicSquare(test);
   }
+
   // A sorok, oszlopok és átlók összegének mindig 15nek kell lennie
   // Egy szám csak egyszer szerepelhet a mátrixban/sorban
   static int formingMagicSquare(int[][] s) {
-    // Első sor, nincs kizárva duplikáció
+
+    return 0;
+  }
+
+  // Első sor, nincs kizárva duplikáció
     /*
     List<Integer> temp = new ArrayList<>();
     int sumOfRow = 0;
@@ -39,8 +41,8 @@ public class FormingAMagicSquareNINCSKESZ {
       }
     }*/
 
-    // Második verzió
-    int firstRow = 0;
+  // Második verzió
+    /*int firstRow = 0;
     int secondRow = 0;
     int thirdRow = 0;
     int firstColumn = 0;
@@ -48,9 +50,9 @@ public class FormingAMagicSquareNINCSKESZ {
     int thirdColumn = 0;
     int rightDiagonal = 0;
     int leftDiagonal = 0;
-    List<Integer> numbersOfMatrixSums = new ArrayList<>();
+    List<Integer> numbersOfMatrixSums = new ArrayList<>();*/
 
-    for (int i = 0; i < s.length; i++) {
+   /* for (int i = 0; i < s.length; i++) {
       firstRow += s[0][i];
       secondRow += s[1][i];
       thirdRow += s[2][i];
@@ -70,6 +72,5 @@ public class FormingAMagicSquareNINCSKESZ {
     numbersOfMatrixSums.add(rightDiagonal);
     numbersOfMatrixSums.add(leftDiagonal);
 
-    return 0;
-  }
+    return 0;*/
 }
