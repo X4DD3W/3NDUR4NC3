@@ -12,12 +12,12 @@ public class Doubled {
   public static void main(String[] args) {
     // Create a method that decrypts the duplicated-chars.txt
 
-    String filename = "duplicated-chars-original.txt";
+    String filename = "src\\resources\\duplicated-chars.txt";
     decryptor(filename);
 
   }
 
-  public static ArrayList decryptor(String filename) {
+  public static List<String> decryptor(String filename) {
     List<String> lines = new ArrayList<>();
     try {
       Path filepath = Paths.get(filename);
@@ -27,14 +27,13 @@ public class Doubled {
     }
     String decryptedTemp = "";
     List<String> decryptedFile = new ArrayList<>();
-    for (int i = 0; i < lines.size(); i++) {
-      for (int j = 0; j < lines.get(i).length(); j += 2) {
-        decryptedTemp = decryptedTemp + lines.get(i).charAt(j);
+    for (String line : lines) {
+      for (int j = 0; j < line.length(); j += 2) {
+        decryptedTemp = decryptedTemp + line.charAt(j);
       }
       decryptedFile.add(decryptedTemp);
       decryptedTemp = "";
     }
-    return (ArrayList) decryptedFile;
+    return decryptedFile;
   }
-
 }

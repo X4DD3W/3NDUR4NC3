@@ -1,5 +1,4 @@
-/*
-package hackerrank.nincskesz;
+package hackerrank.problemsolving.nincskesz;
 
 import java.util.Arrays;
 
@@ -17,7 +16,10 @@ public class CutTheSticks {
     // 1 _ _ _ _ 4             1               2
     // _ _ _ _ _ 3             3               1
     // _ _ _ _ _ _            DONE            DONE
+    int[] result = new int[]{};
 
+
+
+    return result;
   }
 }
-*/
