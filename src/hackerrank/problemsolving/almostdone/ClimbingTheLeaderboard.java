@@ -1,10 +1,11 @@
-package hackerrank.problemsolving.nincskesz;
+package hackerrank.problemsolving.almostdone;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class ClimbingTheLeaderboardTIMELIMIT {
+// TIMELIMIT
+public class ClimbingTheLeaderboard {
 
   public static void main(String[] args) {
     /*int[] scores = new int[]{100, 100, 50, 40, 40, 20, 10};

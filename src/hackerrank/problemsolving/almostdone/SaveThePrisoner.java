@@ -1,6 +1,6 @@
-package hackerrank.problemsolving.nincskesz;
+package hackerrank.problemsolving.almostdone;
 
-public class SaveThePrisonerNINCSKESZ {
+public class SaveThePrisoner {
 
   public static void main(String[] args) {
     System.out.println(saveThePrisoner(3, 7, 3));

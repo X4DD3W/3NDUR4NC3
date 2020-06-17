@@ -1,4 +1,4 @@
-package hackerrank.problemsolving.nincskesz;
+package hackerrank.problemsolving.almostdone;
 
 import java.util.Arrays;
 

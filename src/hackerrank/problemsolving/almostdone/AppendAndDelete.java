@@ -1,6 +1,7 @@
-package hackerrank.problemsolving.nincskesz;
+package hackerrank.problemsolving.almostdone;
 
-public class AppendAndDeleteKETTOTESZTELBUKIK {
+// KETTŐ TESZT ELBUKIK
+public class AppendAndDelete {
 
   public static void main(String[] args) {
     System.out.println(appendAndDelete("aba", "aba", 7)); // Yes

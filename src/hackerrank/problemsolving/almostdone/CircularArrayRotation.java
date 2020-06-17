@@ -1,8 +1,9 @@
-package hackerrank.problemsolving.nincskesz;
+package hackerrank.problemsolving.almostdone;
 
 import java.util.Arrays;
 
-public class CircularArrayRotationEGYTESZTELBUKIK {
+// EGY TESZT ELBUKIK
+public class CircularArrayRotation {
 
   public static void main(String[] args) {
     int[] test = new int[]{1, 2, 3};

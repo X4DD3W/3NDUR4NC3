@@ -1,6 +1,7 @@
-package hackerrank.problemsolving.nincskesz;
+package hackerrank.problemsolving.almostdone;
 
-public class SherlockAndSquaresTIMELIMIT {
+// TIMELIMIT
+public class SherlockAndSquares {
 
   public static void main(String[] args) {
     System.out.println(squares(3, 9));

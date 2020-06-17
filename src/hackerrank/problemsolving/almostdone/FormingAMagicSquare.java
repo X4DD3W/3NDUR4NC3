@@ -1,6 +1,6 @@
-package hackerrank.problemsolving.nincskesz;
+package hackerrank.problemsolving.almostdone;
 
-public class FormingAMagicSquareNINCSKESZ {
+public class FormingAMagicSquare {
 
   public static void main(String[] args) {
     int[][] test = new int[][]{

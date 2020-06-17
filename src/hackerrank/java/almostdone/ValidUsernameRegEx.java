@@ -1,8 +1,8 @@
-package hackerrank.java.nincskesz;
+package hackerrank.java.almostdone;
 
 import java.util.Scanner;
 
-public class ValidUsernameRegExNINCSKESZ {
+public class ValidUsernameRegEx {
 
   private static final Scanner scan = new Scanner(System.in);
   public static final String regularExpression = "";

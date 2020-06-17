@@ -11,10 +11,8 @@ public class Doubled {
 
   public static void main(String[] args) {
     // Create a method that decrypts the duplicated-chars.txt
-
     String filename = "src\\resources\\duplicated-chars.txt";
-    decryptor(filename);
-
+    fileWriter(decryptor(filename), filename);
   }
 
   public static List<String> decryptor(String filename) {
@@ -34,6 +32,18 @@ public class Doubled {
       decryptedFile.add(decryptedTemp);
       decryptedTemp = "";
     }
+    System.out.println("Decryption is done.");
     return decryptedFile;
+  }
+
+  public static void fileWriter(List<String> decryptedFile, String filename) {
+    System.out.println("Writing the files...");
+    try {
+      Path filePath = Paths.get(filename);
+      Files.write(filePath, decryptedFile);
+    } catch (Exception e) {
+      System.out.println("Could not write the file!");
+    }
+    System.out.println("Done!");
   }
 }

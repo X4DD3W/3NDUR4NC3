@@ -1,4 +1,4 @@
-package other.greenfox.streamstopractice;
+package other;
 
 import static java.lang.Character.isUpperCase;
 
@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Practice1 {
+public class StreamPractice {
 
   public static void main(String[] args) {
 

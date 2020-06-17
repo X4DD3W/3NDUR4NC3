@@ -15,7 +15,7 @@ public class Logs {
     // Write a function that returns an array with the unique IP addresses.
     // Write a function that returns the GET / POST request ratio.
 
-    String filename = "logs.txt";
+    String filename = "src\\resources\\logs.txt";
     uniqeIPAddress(filename);
     requestRatioPresenter(filename);
 
@@ -27,7 +27,7 @@ public class Logs {
       Path filepath = Paths.get(filename);
       webserverLog = Files.readAllLines(filepath);
     } catch (IOException e) {
-      System.out.println("Ooops!");
+      System.out.println("Where is the file?!");
     }
     List<String> onlyIPs = new ArrayList<>();
     for (int i = 0; i < webserverLog.size(); i++) {
@@ -50,7 +50,7 @@ public class Logs {
       Path filepath = Paths.get(filename);
       webserverLog = Files.readAllLines(filepath);
     } catch (IOException e) {
-      System.out.println("Ooops!");
+      System.out.println("Where is the file?!");
     }
     // Idáig a fenti method is ugyanaz
     List<String> onlyRequestTypes = new ArrayList<>();

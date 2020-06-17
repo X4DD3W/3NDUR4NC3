@@ -16,18 +16,18 @@ public class CustomLogics {
   // "The booking reference is 6 random generated character."
   public static String randomGeneratedChars() {
     Random r = new Random();
-    String result = "";
+    StringBuilder result = new StringBuilder();
     String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     for (int i = 0; i < 6; i++) {
-      result += (alphabet.charAt(r.nextInt(alphabet.length())));
+      result.append(alphabet.charAt(r.nextInt(alphabet.length())));
     }
-    return result;
+    return result.toString();
   }
 
   // Csoszi #1 "Registration"
   // "The password must be stored in the database using the ROT13 substitution cipher"
   public static String passwordEncryptor(String password) {
-    String result = "";
+    StringBuilder result = new StringBuilder();
     for (int i = 0; i < password.length(); i++) {
       char c = password.charAt(i);
       if (c >= 'a' && c <= 'm') {
@@ -39,9 +39,9 @@ public class CustomLogics {
       } else if (c >= 'N' && c <= 'Z') {
         c -= 13;
       }
-      result += c;
+      result.append(c);
     }
-    return result;
+    return result.toString();
   }
 
   // Csoszi #1 "Registration"
