@@ -1,4 +1,4 @@
-package course.sfj;
+package course.sfj.western;
 
 public class Western {
 
