@@ -10,6 +10,8 @@ public class MainLinkedList {
     LinkedList<String> people = new LinkedList<>();
     people.add("Vivi");
     people.add("Laci");
+    people.add("Kili");
+    people.add("Yoda");
     System.out.println(people);
 
     Iterator<String> it = people.iterator();
