@@ -13,6 +13,12 @@
 .idea/**/dictionaries
 .idea/**/shelf
 
+# Some other packages
+src/main/java/course
+src/main/java/other
+src/main/java/temp
+src/main/java/tesztfeladatok
+
 # Generated files
 .idea/**/contentModel.xml
 
